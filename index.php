@@ -15,8 +15,12 @@
             <option>Multiplication</option>
             <option>Division</option>
         </select>
+        <button name="submit" type="submit">Calculate</button>
     </form>
 
+    <?php
+
     
+    ?>
 </body>
 </html>
