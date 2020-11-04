@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PHP calculator</title>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <!-- Style Sheet -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form>
+    <form class="container">
         <input type="text" name='numb1' placeholder='Number 1'>
         <input type="text" name='numb2' placeholder='Number 2'>
         <select name="operator">

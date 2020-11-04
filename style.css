@@ -1,0 +1,38 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(192, 192, 192);
+    background: rgb(36,0,29);
+background: linear-gradient(90deg, rgba(36,0,29,1) 0%, rgba(121,0,45,1) 39%, rgba(255,102,193,1) 100%);
+}
+.container{
+        display: flex;
+        flex-direction: column;
+        height: 30vh;
+        justify-content: space-around;
+        margin-bottom: 3rem;
+
+}
+button {
+    padding: 15px;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+
+}
+input[type="text"]  {
+    padding: 15px;
+}
+select {
+    padding: 15px;
+}
