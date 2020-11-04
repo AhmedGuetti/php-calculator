@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PHP calculator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <form>
@@ -25,16 +26,16 @@
         $operator = $_GET['operator'];
         switch($operator){
             case "Addition" :
-                echo $numb1 + $numb1;
+                echo "The resault of adding ".$numb1."and ".$numb2."is " .($numb1 + $numb1);
             break;
             case "Substraction" :
-                echo $numb1 - $numb1;
+                echo "The resault of substracing ".$numb1."and ".$numb2."is ".($numb1 - $numb1);
             break;
             case "Multiplication" :
-                echo $numb1 * $numb1;
+                echo "The resault of Multiplaying ".$numb1."and ".$numb2."is ".($numb1 * $numb1);
             break;
             case "Division" :
-                echo $numb1 / $numb1;
+                echo "The resault of deviding ".$numb1."and ".$numb2."is ".($numb1 / $numb1);
             break;
         }
     }
