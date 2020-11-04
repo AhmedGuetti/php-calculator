@@ -24,16 +24,16 @@
         $numb2 = $_GET['numb2'];
         $operator = $_GET['operator'];
         switch($operator){
-            case Addition :
+            case "Addition" :
                 echo $numb1 + $numb1;
             break;
-            case Substraction :
+            case "Substraction" :
                 echo $numb1 - $numb1;
             break;
-            case Multiplication :
+            case "Multiplication" :
                 echo $numb1 * $numb1;
             break;
-            case Division :
+            case "Division" :
                 echo $numb1 / $numb1;
             break;
         }
