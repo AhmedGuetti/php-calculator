@@ -19,7 +19,25 @@
     </form>
 
     <?php
-
+    if (isset($_GET['submit'])){
+        $numb1 = $_GET['numb1'];
+        $numb2 = $_GET['numb2'];
+        $operator = $_GET['operator'];
+        switch($operator){
+            case Addition :
+                echo $numb1 + $numb1;
+            break;
+            case Substraction :
+                echo $numb1 - $numb1;
+            break;
+            case Multiplication :
+                echo $numb1 * $numb1;
+            break;
+            case Division :
+                echo $numb1 / $numb1;
+            break;
+        }
+    }
     
     ?>
 </body>
